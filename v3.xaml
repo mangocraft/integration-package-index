@@ -1,4 +1,4 @@
-﻿﻿<local:MyCard Margin="0,0,0,12" Title="欢迎页" CanSwap="True" IsSwaped="False">
+<local:MyCard Margin="0,0,0,12" Title="欢迎页" CanSwap="True" IsSwaped="False">
      <StackPanel Margin="24,40,24,15">
           <TextBlock HorizontalAlignment="Center" Margin="0,0,0,12" Foreground="{DynamicResource ColorBrush2}" FontSize="20"
                Text="欢迎使用芒果方块基础优化整合包" />
