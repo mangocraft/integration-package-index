@@ -1,0 +1,46 @@
+﻿<local:MyCard Margin="0,0,0,12" Title="欢迎页" CanSwap="True" IsSwaped="False">
+     <StackPanel Margin="24,40,24,15">
+          <TextBlock HorizontalAlignment="Center" Margin="0,0,0,12" Foreground="{DynamicResource ColorBrush2}" FontSize="20"
+               Text="欢迎使用芒果方块基础优化整合包" />
+          <local:MyHint Text="作者：芒果方块  当前整合包版本：1.21测试版（本版本会随时更新，请关注芒果方块B站更新消息）" Margin="0,0,0,0" Padding="0,2,0,2" IsWarn="false" />
+          <local:MyCard Margin="0,0,0,6" Title="相关网站" CanSwap="True" IsSwaped="False">
+               <StackPanel Margin="24,40,24,15">
+                    <local:MyListItem Margin="-2,0,0,0" Logo="https://mangocraft.github.io/integration-package-index/128x128%E6%97%A0%E8%83%8C%E6%99%AF.png" Title="整合包更新日志及反馈区" Info="可通过这个页面获取每次的更新日志以及向我们反馈BUG" EventType="打开网页" EventData="https://space.bilibili.com/23240466/dynamic" Type="Clickable" />
+                    <local:MyListItem Margin="-2,0,0,0" Logo="https://www.bilibili.com/favicon.ico" Title="芒果方块Bilibili频道" Info="更新时记得给个三连喵~" EventType="打开网页" EventData="https://space.bilibili.com/23240466" Type="Clickable" />
+                    <local:MyListItem Margin="-2,0,0,0" Logo="https://mangocraft.github.io/integration-package-index/QQ.png" Title="芒果方块QQ频道" Info="点击加入芒果方块频道，整合包更新时会在本群发布" EventType="打开网页" EventData="https://pd.qq.com/s/7d6pbu7to" Type="Clickable" />
+                    <local:MyListItem Margin="-2,0,0,0" Logo="https://mangocraft.github.io/integration-package-index/QQqun.png" Title="芒果方块QQ粉丝群" Info="点击加入芒果方块粉丝群，整合包更新时会在本群发布" EventType="打开网页" EventData="https://t.hk.uy/b66X" Type="Clickable" />
+                    <local:MyListItem Margin="-2,0,0,0" Logo="https://www.mcmod.cn/favicon.ico" Title="MC模组百科" Info="最大的Minecraft中文Mod百科，可查询模组相关信息" EventType="打开网页" EventData="https://www.mcmod.cn/" Type="Clickable" />
+               </StackPanel>
+          </local:MyCard>
+     </StackPanel>
+</local:MyCard>
+
+<local:MyCard  Margin="0,0,0,12" Title="关于我们" CanSwap="True" IsSwaped="False">
+     <StackPanel Margin="24,40,24,15">
+          <Image Width="50" Margin="0,0,0,0" Source="https://mangocraft.github.io/integration-package-index/1080x1080%E6%97%A0%E8%83%8C%E6%99%AF.png"/>
+          <Grid>
+               <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*" />
+               </Grid.ColumnDefinitions>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Margin="0,12,0,0" Text="芒果方块团队"/>
+          </Grid>
+          <Grid>
+               <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*" />
+               </Grid.ColumnDefinitions>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Margin="0,12,0,0" Text="芒果方块全名芒果方块团队,于2016年1月1日成立"/>
+					<TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Margin="0,35,0,0" Text="团队理念：与你，共同发现"/>
+					<TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Margin="0,55,0,0" Text="芒果方块现以Minecraft为创作核心，创作有纪录片This is My Minecraft、"/>
+					<TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Margin="0,75,0,0" Text="Minecraft教程系列等视频项目，目前在全网有上万粉丝。"/>
+					<TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Margin="0,95,0,0" Text="同时，芒果方块也在运营芒果方块粉丝服这一大型公益项目"/>
+					<TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Margin="0,115,0,0" Text="主张打造不破坏原版玩法的Minecraft服务器，收获了无数的好评与认可。"/>
+          </Grid>
+          <Grid>
+               <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*" />
+               </Grid.ColumnDefinitions>
+                    <local:MyButton Margin="0,15,0,0" Height="35" Text="点击了解更多" EventType="打开网页" EventData="https://www.mgcraft.net/about" ToolTip="点击进入芒果方块关于界面"/>
+          </Grid>
+     </StackPanel>
+</local:MyCard>
+
