@@ -2,7 +2,7 @@
      <StackPanel Margin="24,40,24,15">
           <TextBlock HorizontalAlignment="Center" Margin="0,0,0,12" Foreground="{DynamicResource ColorBrush2}" FontSize="20"
                Text="欢迎使用芒果方块基础优化整合包" />
-          <local:MyHint Text="作者：芒果方块  当前整合包版本：1.21测试版（本版本会随时更新，请关注芒果方块B站更新消息）" Margin="0,0,0,0" Padding="0,2,0,2" IsWarn="false" />
+          <local:MyHint Text="作者：芒果方块  当前整合包版本：1.21测试版（最新版本为3.7-1.21.3） 请及时更新" Margin="0,0,0,0" Padding="0,2,0,2" IsWarn="true" />
           <local:MyCard Margin="0,0,0,6" Title="相关网站" CanSwap="True" IsSwaped="False">
                <StackPanel Margin="24,40,24,15">
                     <local:MyListItem Margin="-2,0,0,0" Logo="https://mangocraft.github.io/integration-package-index/128x128%E6%97%A0%E8%83%8C%E6%99%AF.png" Title="整合包更新日志及反馈区" Info="可通过这个页面获取每次的更新日志以及向我们反馈BUG" EventType="打开网页" EventData="https://space.bilibili.com/23240466/dynamic" Type="Clickable" />
