@@ -32,14 +32,14 @@
 					<TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Margin="0,35,0,0" Text="团队理念：与你，共同发现"/>
 					<TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Margin="0,55,0,0" Text="芒果方块现以Minecraft为创作核心，创作有纪录片This is My Minecraft、"/>
 					<TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Margin="0,75,0,0" Text="Minecraft教程系列等视频项目，目前在全网有上万粉丝。"/>
-					<TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Margin="0,95,0,0" Text="同时，芒果方块也在运营芒果方块粉丝服这一大型公益项目"/>
-					<TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Margin="0,115,0,0" Text="主张打造不破坏原版玩法的Minecraft服务器，收获了无数的好评与认可。"/>
+					<TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Margin="0,95,0,0" Text="同时，芒果方块也在运营芒果方块粉丝服这一纯公益项目。主张为粉丝及朋友们"/>
+					<TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Margin="0,115,0,0" Text="提供免费且长期运行的Minecraft原版生存服务器，收获了无数的好评与认可。"/>
           </Grid>
           <Grid>
                <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="1*" />
                </Grid.ColumnDefinitions>
-                    <local:MyButton Margin="0,15,0,0" Height="35" Text="点击了解更多" EventType="打开网页" EventData="https://www.mgcraft.net/about" ToolTip="点击进入芒果方块关于界面"/>
+                    <local:MyButton Margin="0,15,0,0" Height="35" Text="点击了解更多" EventType="打开网页" EventData="https://www.mgcraft.net" ToolTip="点击进入芒果方块关于界面"/>
           </Grid>
      </StackPanel>
 </local:MyCard>
